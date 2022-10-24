@@ -1,0 +1,43 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+  max-height: 400px;
+
+  z-index: 1;
+}
+.product > img {
+  max-width: 200px;
+  width: 100%;
+  object-fit: contain;
+  position: relative;
+  margin-bottom: 25px;
+}
+.product > button {
+  background: #f0c14b;
+  border: 2px solid;
+  margin-top: 5px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  padding: 15px 10px 15px 10px;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+.product_price {
+  margin-top: 5px;
+  position: relative;
+}
+.product_info {
+  height: 100px;
+  text-align: left;
+  position: relative;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,39 @@
+.footer_button > button {
+  display: block;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+  color: #fff;
+  background-color: #3f5f7d;
+}
+.footer_container {
+  display: inline-flex;
+  margin-top: 0px;
+  margin-bottom: 0;
+  align-items: center;
+  align-content: center;
+  padding-top: 85px;
+  padding-bottom: 75px;
+  background-color: #232f3e;
+  width: 100%;
+}
+.footer_container1 {
+  margin-left: 150px;
+  margin-right: 20px;
+  align-content: center;
+  color: white;
+}
+.logoimage {
+  width: 100px;
+  /* object-fit: contain; */
+  margin-left: 700px;
+  position: sticky;
+  margin-top: 18px;
+}
+.footer_logoimage {
+  display: inline-block;
+  align-items: center;
+  align-content: center;
+  background-color: #405d78;
+  width: 100%;
+}
